@@ -16,7 +16,7 @@ class Sidebar extends Component {
   render() {
     return (
       <section>
-        <img src={profileImg} alt="profile picture"/>
+        <img src={} alt="profile picture"/>
 
         <div>
           <a href="">About</a>

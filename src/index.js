@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ScreensRoot from './screens/ScreensRoot'
 
 ReactDOM.render(
-  <section>
-    <h1>Hello World</h1>
-  </section>,
-  document.getElementById('root')
+  <ScreensRoot />, document.getElementById('root')
 );
