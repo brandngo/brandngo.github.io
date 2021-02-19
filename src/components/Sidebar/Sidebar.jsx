@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import profileImg from '';
+import profileImg from './images.png';
 import ReactDOM from 'react-dom';
+import sidebarStyle from './Sidebar.css'; 
 
 class Sidebar extends Component {
   constructor(props) {
@@ -15,17 +16,18 @@ class Sidebar extends Component {
 
   render() {
     return (
-      <section>
-        <img src={} alt="profile picture"/>
+      <section className="sidebar-container">
+        <div className="">
+          <img src={profileImg} alt="profile picture"/>
+        </div>
 
-        <div>
-          <a href="">About</a>
+        <div className="directory">
+          <a href="">About Me</a>
           <a href="">Projects</a>
           <a href="">Education</a>
           <a href="">Experience</a>
         </div>
       </section>
-
       
     );
   }
