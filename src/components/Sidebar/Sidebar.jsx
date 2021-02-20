@@ -15,6 +15,8 @@ class Sidebar extends Component {
   }
 
   render() {
+    
+
     return (
       <section className="sidebar-container">
         <div className="">
@@ -22,7 +24,7 @@ class Sidebar extends Component {
         </div>
 
         <div className="directory">
-          <a href="">About Me</a>
+          <a href="" style={{color: "red"}}>About Me</a>
           <a href="">Projects</a>
           <a href="">Education</a>
           <a href="">Experience</a>

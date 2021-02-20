@@ -1,0 +1,18 @@
+.screen {
+  display: flex;
+  
+}
+
+.sidebar {
+  flex: 1;
+
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.pages {
+  flex: 1;
+}
