@@ -9,7 +9,7 @@ class AboutMe extends Component {
 
     return (
       <section className="aboutMe-container">
-        <h1>Brandon <h1>Ngo</h1></h1>
+        <h1>Brandon <span>Ngo</span></h1>
         <h2>Toronto, Ontario</h2>
         
         <ol>
