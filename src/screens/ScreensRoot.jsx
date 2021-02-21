@@ -4,15 +4,12 @@ import rootstyle from './root.css';
 import Sidebar from '../components/Sidebar/Sidebar';
 import About from '../components/About/AboutMe';
 import Projects from '../components/Projects/Projects';
-import Sticky from 'react-stickynode';
 
 class ScreensRoot extends Component {
   render() {
     return (
       <section className="screen">
-        <Sticky>
-          <Sidebar className="sidebar"/>
-        </Sticky>
+        <Sidebar className="sidebar"/>
 
         <div className="pages">
           <About className="about"/>

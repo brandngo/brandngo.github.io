@@ -4,11 +4,14 @@ body {
 }
 
 .sidebar-container {
-  width: 70%;
+  width: 20%;
   height: 100vh;
   background-color: rgb(60, 90, 90);
   display: flex;
   flex-direction: column;
+
+  position: sticky;
+  top: 0;
 
   justify-content: center;
   align-items: center;
