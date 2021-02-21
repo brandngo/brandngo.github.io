@@ -4,7 +4,8 @@ body {
 }
 
 .sidebar-container {
-  width: 20%;
+  width: 70%;
+  height: 100vh;
   background-color: rgb(60, 90, 90);
   display: flex;
   flex-direction: column;
