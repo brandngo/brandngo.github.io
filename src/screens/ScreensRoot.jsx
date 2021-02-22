@@ -4,6 +4,7 @@ import rootstyle from './root.css';
 import Sidebar from '../components/Sidebar/Sidebar';
 import About from '../components/About/AboutMe';
 import Projects from '../components/Projects/Projects';
+import Education from '../components/Education/Education';
 
 class ScreensRoot extends Component {
   render() {
@@ -14,6 +15,7 @@ class ScreensRoot extends Component {
         <div className="pages">
           <About className="about"/>
           <Projects className="projects"/>
+          <Education className="education"/>
           
         </div>
 
@@ -24,6 +26,3 @@ class ScreensRoot extends Component {
 }
 
 export default ScreensRoot;
-
-//
-//

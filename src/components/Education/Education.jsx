@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import aboutmeStyle from './AboutMe.css'; 
+import educationStyle from './Education.css'; 
 
-class AboutMe extends Component {
+class Education extends Component {
 
   render() {
     
 
     return (
-      <section className="aboutMe-container">
+      <section className="education-container">
         <h1>Brandon <h1>Ngo</h1></h1>
         <h2>Toronto, Ontario</h2>
         
@@ -32,4 +32,4 @@ class AboutMe extends Component {
 
 }
 
-export default AboutMe;
+export default Education;
