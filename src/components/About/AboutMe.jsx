@@ -12,15 +12,13 @@ class AboutMe extends Component {
         <h1>Brandon <span>Ngo</span></h1>
         <h2>Toronto, Ontario</h2>
         
-        <ol>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-        </ol>
+        <ul>
+          <li>Software Engineer</li>
+        </ul>
         
         <ul>
-          <a>1</a>
-          <a>2</a>
+          <a>Github</a>
+          <a></a>
           <a>3</a>
           <a>4</a>
         </ul>
