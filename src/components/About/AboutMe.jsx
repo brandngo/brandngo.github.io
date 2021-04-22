@@ -5,8 +5,7 @@ import aboutmeStyle from './AboutMe.css';
 class AboutMe extends Component {
 
   render() {
-    
-
+  
     return (
       <section className="aboutMe-container">
         <h1>Brandon <span>Ngo</span></h1>
