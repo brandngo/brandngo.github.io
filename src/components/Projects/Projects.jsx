@@ -11,18 +11,14 @@ class Projects extends Component {
       <section className="projects-container">
         <h3>Projects</h3>
         
-        <ol>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-        </ol>
-        
-        <ul>
-          <a>1</a>
-          <a>2</a>
-          <a>3</a>
-          <a>4</a>
-        </ul>
+        <div>
+          <h2>interAction</h2>
+          <p className="info">Submitted to cuHacking 2021</p>
+
+          <ul>
+            <li>Implementation of voice and instant messaging using sockets</li>
+          </ul>
+        </div>
     
       </section>
       

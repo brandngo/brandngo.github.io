@@ -13,8 +13,13 @@
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: 'Antonio';
-  line-height: 3rem;
+  line-height: 0rem;
+}
+
+.info {
+  font-family: 'Open Sans';
+  font-size: 18px;
 
 }
