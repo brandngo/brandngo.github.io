@@ -11,18 +11,8 @@ class Education extends Component {
       <section className="education-container">
         <h3>Education</h3>
         
-        <ol>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-        </ol>
-        
-        <ul>
-          <a>1</a>
-          <a>2</a>
-          <a>3</a>
-          <a>4</a>
-        </ul>
+        <h2>University of Waterloo</h2>
+        <h4 className="info">Bachelors of Computer Science</h4>
     
       </section>
       
