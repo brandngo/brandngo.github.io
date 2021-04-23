@@ -9,8 +9,7 @@ class Experience extends Component {
 
     return (
       <section className="experience-container">
-        <h1>Brandon <h1>Ngo</h1></h1>
-        <h2>Toronto, Ontario</h2>
+        <h3>Experience</h3>
         
         <ol>
           <li>1</li>

@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import aboutmeStyle from './AboutMe.css'; 
@@ -9,17 +10,18 @@ class AboutMe extends Component {
     return (
       <section className="aboutMe-container">
         <h1>Brandon <span>Ngo</span></h1>
-        <h2>Toronto, Ontario</h2>
+        <h2>TORONTO, ONTARIO</h2>
         
-        <ul>
-          <li>Software Engineer</li>
+        <ul className="info">
+          <li>Software Developer</li>
+          <li>Hobbyist</li>
+          <li>Explorer</li>
         </ul>
         
         <ul>
-          <a>Github</a>
-          <a></a>
-          <a>3</a>
-          <a>4</a>
+          <FontAwesomeIcon icon={["fab", "github"]} />
+          <FontAwesomeIcon icon={["fab", "linkedin"]} />
+          <FontAwesomeIcon icon={["fab", "github"]} />
         </ul>
     
       </section>

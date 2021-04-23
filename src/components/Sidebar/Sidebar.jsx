@@ -5,16 +5,16 @@ import sidebarStyle from './Sidebar.css';
 
 class Sidebar extends Component {
   state = {
-    about: 'white',
+    about: 'red',
     projects: 'white',
     education: 'white',
     experience: 'white'
   }
   
   listenScrollEvent = e => {
-    if (window.scrollY < window.innerHeight) {
+    if (window.scrollY <= window.innerHeight) {
       this.setState({about: 'red', projects: 'white', education: 'white', experience: 'white'});
-    } else if (window.scrollY < 2 * window.innerHeight) {
+    } else if (window.scrollY <= 2 * window.innerHeight) {
       this.setState({about: 'white', projects: 'red', education: 'white', experience: 'white'});
     } else if (window.scrollY < 3 * window.innerHeight) {
       this.setState({about: 'white', projects: 'white', education: 'red', experience: 'white'});

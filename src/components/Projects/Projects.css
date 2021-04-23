@@ -7,7 +7,14 @@
   flex-direction: column;
   position: right;
 
-  justify-content: center;
+  justify-content: top;
   align-items: left;
   text-align: left;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: 'Antonio';
+  line-height: 3rem;
+
 }

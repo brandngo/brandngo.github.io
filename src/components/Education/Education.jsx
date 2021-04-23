@@ -9,8 +9,7 @@ class Education extends Component {
 
     return (
       <section className="education-container">
-        <h1>Brandon <h1>Ngo</h1></h1>
-        <h2>Toronto, Ontario</h2>
+        <h3>Education</h3>
         
         <ol>
           <li>1</li>
